@@ -1,0 +1,32 @@
+$(document).ready(function(){
+    $("button#javascript").click(function(){
+        $("#answer1").toggle();
+    });
+    $("button#operators").click(function(){
+        $("#answer2").toggle();
+    });
+    $("button#variables").click(function(){
+        $("#answer3").toggle();
+    });
+    $("button#variable-naming-convention").click(function(){
+        $("#answer4").toggle();
+    });
+    $("button#functions").click(function(){
+        $("#answer5").toggle();
+    });
+    $("button#methods").click(function(){
+        $("#answer6").toggle();
+    });
+    $("button#arguments").click(function(){
+        $("#answer7").toggle();
+    });
+    $("button#parameters").click(function(){
+        $("#answer8").toggle();
+    });
+    $("button#return").click(function(){
+        $("#answer9").toggle();
+    });
+    $("button#chaining-methods").click(function(){
+        $("#answer10").toggle();
+    });
+});
