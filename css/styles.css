@@ -2,6 +2,7 @@ body {
     font-family: 'Sue Ellen Francisco', cursive;
     font-size: 24px;
     background-image: url(../images/background2.jpg);
+    background-attachment: fixed;
 }
 .answer {
     display: none;

@@ -1,5 +1,7 @@
 $(document).ready(function(){
-    $("button#javascript").click(function(){
+
+    var js=$("button#javascript");
+    js.click(function(){
         $("#answer1").toggle();
     });
     $("button#operators").click(function(){
